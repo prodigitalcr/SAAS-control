@@ -1,3 +1,6 @@
+// Entry point → Sign Up / Login Screen
+import LoginPage from './sign-up-login-screen/page';
+
 export default function RootPage() {
-  return <h1>Hola Mundo desde la raíz. ¡Vercel sí funciona!</h1>;
+  return <LoginPage />;
 }
